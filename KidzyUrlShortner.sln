@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KidzyUrlShortner.Domain", "KidzyUrlShortner.Domain\KidzyUrlShortner.Domain.csproj", "{F8A25A6C-DC5E-4EA1-8A23-CDB2546367D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KidzyUrlShortner.DAL.EfCore", "KidzyUrlShortner.DAL.EfCore\KidzyUrlShortner.DAL.EfCore.csproj", "{16B6F5BF-ACDB-4CE6-9C81-4DDBFBF9352A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KidzyUrlShortner.Application", "KidzyUrlShortner.Application\KidzyUrlShortner.Application.csproj", "{02AFEC88-8802-4E20-89F4-49BF6A14EC6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KidzyUrlShortner.DAL.Dapper", "KidzyUrlShortner.DAL.Dapper\KidzyUrlShortner.DAL.Dapper.csproj", "{328DE7B0-C497-4FB1-BD85-4779003B027B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KidzyUrlShortner.UI.API", "KidzyUrlShortner.UI.API\KidzyUrlShortner.UI.API.csproj", "{E960DD9D-9B2B-458B-A620-F52AFED779C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KidzyUrlShortner.Basekit", "KidzyUrlShortner.Basekit\KidzyUrlShortner.Basekit.csproj", "{C0295070-1F55-4A0D-B9D8-C7037F86FEF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8A25A6C-DC5E-4EA1-8A23-CDB2546367D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A25A6C-DC5E-4EA1-8A23-CDB2546367D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A25A6C-DC5E-4EA1-8A23-CDB2546367D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A25A6C-DC5E-4EA1-8A23-CDB2546367D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B6F5BF-ACDB-4CE6-9C81-4DDBFBF9352A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B6F5BF-ACDB-4CE6-9C81-4DDBFBF9352A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B6F5BF-ACDB-4CE6-9C81-4DDBFBF9352A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B6F5BF-ACDB-4CE6-9C81-4DDBFBF9352A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AFEC88-8802-4E20-89F4-49BF6A14EC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AFEC88-8802-4E20-89F4-49BF6A14EC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AFEC88-8802-4E20-89F4-49BF6A14EC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AFEC88-8802-4E20-89F4-49BF6A14EC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328DE7B0-C497-4FB1-BD85-4779003B027B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328DE7B0-C497-4FB1-BD85-4779003B027B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328DE7B0-C497-4FB1-BD85-4779003B027B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328DE7B0-C497-4FB1-BD85-4779003B027B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E960DD9D-9B2B-458B-A620-F52AFED779C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E960DD9D-9B2B-458B-A620-F52AFED779C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E960DD9D-9B2B-458B-A620-F52AFED779C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E960DD9D-9B2B-458B-A620-F52AFED779C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0295070-1F55-4A0D-B9D8-C7037F86FEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0295070-1F55-4A0D-B9D8-C7037F86FEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0295070-1F55-4A0D-B9D8-C7037F86FEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0295070-1F55-4A0D-B9D8-C7037F86FEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C62C1FC-47BD-45C8-9D10-054E66629813}
+	EndGlobalSection
+EndGlobal

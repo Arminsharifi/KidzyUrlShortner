@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KidzyUrlShortner.Basekit\KidzyUrlShortner.Basekit.csproj" />
+    <ProjectReference Include="..\KidzyUrlShortner.DAL.Dapper\KidzyUrlShortner.DAL.Dapper.csproj" />
+    <ProjectReference Include="..\KidzyUrlShortner.DAL.EfCore\KidzyUrlShortner.DAL.EfCore.csproj" />
+    <ProjectReference Include="..\KidzyUrlShortner.Domain\KidzyUrlShortner.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KidzyUrlShortner.Application\KidzyUrlShortner.Application.csproj" />
+    <ProjectReference Include="..\KidzyUrlShortner.DAL.Dapper\KidzyUrlShortner.DAL.Dapper.csproj" />
+    <ProjectReference Include="..\KidzyUrlShortner.DAL.EfCore\KidzyUrlShortner.DAL.EfCore.csproj" />
+    <ProjectReference Include="..\KidzyUrlShortner.Domain\KidzyUrlShortner.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
